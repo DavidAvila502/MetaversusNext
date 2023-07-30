@@ -58,7 +58,7 @@ const World = () => (
                />
             </div>
 
-            <div className="absolute top-1/2 left-[15%] w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5d6680]">
+            <div className="hidden sm:block absolute top-1/2 left-[15%] w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5d6680]">
                <div className="w-full h-full bg-[url('/upside_down_map.png')] bg-no-repeat bg-cover p-[20px] flex items-end">
                   <div className="w-full flex flex-col items-center">
                      <div>
@@ -94,7 +94,7 @@ const World = () => (
                </div>
             </div>
 
-            <div className="absolute top-10 right-64  max-md:right-20 w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5d6680]">
+            <div className="hidden sm:block absolute top-10 right-64  max-md:right-20 w-[217px] h-[167px] p-[6px] rounded-[24px] bg-[#5d6680]">
                <div className="w-full h-full bg-[url('/hawkins_labs.png')] bg-no-repeat bg-cover p-[20px] flex items-end">
                   <div className="w-full flex flex-col items-center">
                      <div>
